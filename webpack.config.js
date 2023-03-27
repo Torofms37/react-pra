@@ -49,7 +49,7 @@ module.exports = {
 			filename: '[name].css'
 		}),
 	],
-  devServer:{
+	devServer:{
 		historyApiFallback: true,
     static: path.join(__dirname, 'dist'),
     compress:true,
